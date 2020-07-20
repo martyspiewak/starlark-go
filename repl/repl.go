@@ -10,7 +10,7 @@
 // expression. If the input still cannot be parsed as an expression,
 // the REPL parses and executes it as a file (a list of statements),
 // for side effects.
-package repl // import "go.starlark.net/repl"
+package repl // import "github.com/k14s/starlark-go/repl"
 
 // TODO(adonovan):
 //
@@ -30,9 +30,9 @@ import (
 	"os/signal"
 
 	"github.com/chzyer/readline"
-	"go.starlark.net/resolve"
-	"go.starlark.net/starlark"
-	"go.starlark.net/syntax"
+	"github.com/k14s/starlark-go/resolve"
+	"github.com/k14s/starlark-go/starlark"
+	"github.com/k14s/starlark-go/syntax"
 )
 
 var interrupted = make(chan os.Signal, 1)

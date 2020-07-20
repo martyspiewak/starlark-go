@@ -6,7 +6,7 @@
 This is the home of the _Starlark in Go_ project.
 Starlark in Go is an interpreter for Starlark, implemented in Go.
 Starlark was formerly known as Skylark.
-The new import path for Go packages is `"go.starlark.net/starlark"`.
+The new import path for Go packages is `"github.com/k14s/starlark-go/starlark"`.
 
 Starlark is a dialect of Python intended for use as a configuration language.
 Like Python, it is an untyped dynamic language with high-level data
@@ -93,7 +93,7 @@ When you have finished, type `Ctrl-D` to close the REPL's input stream.
 Embed the interpreter in your Go program:
 
 ```
-import "go.starlark.net/starlark"
+import "github.com/k14s/starlark-go/starlark"
 
 // Execute Starlark program in a file.
 thread := &starlark.Thread{Name: "my thread"}

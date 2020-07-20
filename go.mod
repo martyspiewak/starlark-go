@@ -1,4 +1,4 @@
-module go.starlark.net
+module github.com/k14s/starlark-go
 
 go 1.13
 

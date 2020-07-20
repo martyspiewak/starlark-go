@@ -15,7 +15,7 @@ import (
 	"testing"
 	"unsafe"
 
-	"go.starlark.net/starlark"
+	"github.com/k14s/starlark-go/starlark"
 )
 
 // ExampleExecFile demonstrates a simple embedding

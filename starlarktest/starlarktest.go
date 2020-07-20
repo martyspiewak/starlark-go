@@ -10,7 +10,7 @@
 //
 // The assert.error function, which reports errors to the current Go
 // testing.T, requires that clients call SetTest(thread, t) before use.
-package starlarktest // import "go.starlark.net/starlarktest"
+package starlarktest // import "github.com/k14s/starlark-go/starlarktest"
 
 import (
 	"fmt"
@@ -20,8 +20,8 @@ import (
 	"strings"
 	"sync"
 
-	"go.starlark.net/starlark"
-	"go.starlark.net/starlarkstruct"
+	"github.com/k14s/starlark-go/starlark"
+	"github.com/k14s/starlark-go/starlarkstruct"
 )
 
 const localKey = "Reporter"

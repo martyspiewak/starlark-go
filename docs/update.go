@@ -41,7 +41,7 @@ func main() {
 		log.Fatal(err)
 	}
 	for _, pkg := range strings.Split(strings.TrimSpace(fmt.Sprint(cmd.Stdout)), "\n") {
-		rel := strings.TrimPrefix(pkg, "go.starlark.net/") // e.g. "cmd/starlark"
+		rel := strings.TrimPrefix(pkg, "github.com/k14s/starlark-go/") // e.g. "cmd/starlark"
 		subdir := filepath.Join("docs", rel)
 		if err := os.MkdirAll(subdir, 0777); err != nil {
 			log.Fatal(err)

@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"go.starlark.net/internal/chunkedfile"
-	"go.starlark.net/starlarktest"
-	"go.starlark.net/syntax"
+	"github.com/k14s/starlark-go/internal/chunkedfile"
+	"github.com/k14s/starlark-go/starlarktest"
+	"github.com/k14s/starlark-go/syntax"
 )
 
 func TestExprParseTrees(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"go.starlark.net/resolve"
-	"go.starlark.net/starlark"
-	"go.starlark.net/starlarkstruct"
-	"go.starlark.net/starlarktest"
+	"github.com/k14s/starlark-go/resolve"
+	"github.com/k14s/starlark-go/starlark"
+	"github.com/k14s/starlark-go/starlarkstruct"
+	"github.com/k14s/starlark-go/starlarktest"
 )
 
 func init() {

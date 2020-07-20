@@ -13,11 +13,11 @@ import (
 	"strings"
 	"testing"
 
-	"go.starlark.net/internal/chunkedfile"
-	"go.starlark.net/resolve"
-	"go.starlark.net/starlark"
-	"go.starlark.net/starlarktest"
-	"go.starlark.net/syntax"
+	"github.com/k14s/starlark-go/internal/chunkedfile"
+	"github.com/k14s/starlark-go/resolve"
+	"github.com/k14s/starlark-go/starlark"
+	"github.com/k14s/starlark-go/starlarktest"
+	"github.com/k14s/starlark-go/syntax"
 )
 
 // A test may enable non-standard options by containing (e.g.) "option:recursion".
